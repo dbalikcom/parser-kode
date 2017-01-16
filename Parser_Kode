@@ -1,0 +1,32 @@
+<div id="parser">
+<textarea id="codes" placeholder="Tulis/paste kode atau teks di sini lalu klik tombol yang sesuai. Untuk embed komentar, ambil ID DISQUS dari URL tombol share komentar Disqus." spellcheck="false"></textarea>
+<span class="button-group">
+<button class="btn btn-primary btn-xs" id="cvrt3" onclick="strongConvert();this.disabled = true;">strong</button>
+<button class="btn btn-primary btn-xs" id="cvrt4" onclick="emConvert();this.disabled = true;">em</button>
+<button class="btn btn-primary btn-xs" id="cvrt4" onclick="uConvert();this.disabled = true;">u</button>
+<button class="btn btn-primary btn-xs" id="cvrt5" onclick="strikeConvert();this.disabled = true;">strike</button>
+<button class="btn btn-primary btn-xs" id="cvrt7" onclick="preConvert();this.disabled = true;">pre</button>
+<button class="btn btn-primary btn-xs" id="cvrt8" onclick="codeConvert();this.disabled = true;">code</button>
+<button class="btn btn-primary btn-xs" id="cvrt9" onclick="precodeConvert();this.disabled = true;">pre code</button>
+<button class="btn btn-primary btn-xs" id="cvrt10" onclick="spoilerConvert();this.disabled = true;">spoiler</button><br>
+<button class="btn btn-primary btn-xs" id="cvrt11" onclick="embedConvert();this.disabled = true;">embed</button> <span>How to get ID DISQUS - <a href="https://3.bp.blogspot.com/-5wJN6R18cZs/V8LMLmATPCI/AAAAAAAAnrk/j6xr9K2DPDMX7RNpb5qXttuHUwKQ7QK-wCLcB/s1600/Animation2.gif" rel="nofollow" target="_blank" title="Lihat di sini">http://disq.us/p/[ID DISQUS]</a></span><br>
+<button class="btn btn-danger btn-xs" onclick="cdClear();">Bersihkan</button>
+</span>
+<span class="checkbox">
+  <input checked="" id="opt1" type="checkbox">
+  <input checked="" id="opt2" type="checkbox">
+  <input checked="" id="opt3" type="checkbox">
+  <input checked="" id="opt4" type="checkbox">
+  <input checked="" id="opt5" type="checkbox"><br>
+  <input checked="" id="opt6" type="checkbox"> <span>strong</span>
+  <input checked="" id="opt7" type="checkbox"> <span>em</span>
+  <input checked="" id="opt8" type="checkbox"> <span>u</span>
+  <input checked="" id="opt9" type="checkbox"> <span>strike</span><br>
+  <input checked="" id="opt10" type="checkbox"> <span>pre</span>
+  <input checked="" id="opt11" type="checkbox"> <span>code</span>
+  <input checked="" id="opt12" type="checkbox"> <span>pre code</span>
+  <input checked="" id="opt13" type="checkbox"> <span>spoiler</span><br>
+  <input checked="" id="opt20" type="checkbox"> <span>embed</span>
+  </span>
+  <div class="clear"></div>
+</div>
